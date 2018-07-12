@@ -14,7 +14,6 @@ s.source_files = 'ApplePurchaseManager/ApplePurchaseManager.h'
 s.ios.deployment_target = '7.0'
 s.source_files = 'ApplePurchaseManager/**/*.{h,m}'
 
-
 s.dependency 'SVProgressHUD'
-
+s.dependency 'StoreKit'
 end
