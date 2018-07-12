@@ -10,9 +10,9 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 s.platform = :ios, '8.0'
 s.requires_arc = true
 s.public_header_files = 'ApplePurchaseManager/ApplePurchaseManager.h'
-s.source_files = 'ApplePurchaseManager/ApplePurchaseManager.h'
-s.ios.deployment_target = '7.0'
 s.source_files = 'ApplePurchaseManager/**/*.{h,m}'
+s.ios.deployment_target = '7.0'
+
 
 s.dependency 'SVProgressHUD'
 s.dependency 'StoreKit'
