@@ -29,20 +29,7 @@ if ([ApplePurchaseManager sharedInstance].isPurchasing) {
 
         return;
     }
-```
-
-```objc       
-UIViewController *doc = [[RouterManager sharedInstance]
-                             performAction:@"TestViewController"
-                             params:@{
-                                      @"info":@{
-                                              @"user":@"我是正向传值参数:push",
-                                              }
-                                      }
-                             shouldCacheTarget:NO];
-
-[self.navigationController pushViewController:doc animated:YES];
-```    
+``` 
 
 * 内购请求
 
