@@ -8,8 +8,6 @@
 
 
 #import <Foundation/Foundation.h>
-#import <StoreKit/StoreKit.h>
-#import <SVProgressHUD.h>
 
 typedef enum {
     kApplePurchSuccess = 0,  // 内购成功

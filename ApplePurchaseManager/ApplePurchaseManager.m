@@ -7,7 +7,8 @@
 //
 
 #import "ApplePurchaseManager.h"
-
+#import <StoreKit/StoreKit.h>
+#import <SVProgressHUD.h>
 @interface ApplePurchaseManager()<SKPaymentTransactionObserver,SKProductsRequestDelegate>
 
 @end
