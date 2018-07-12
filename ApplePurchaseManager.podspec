@@ -15,5 +15,5 @@ s.ios.deployment_target = '7.0'
 
 
 s.dependency 'SVProgressHUD'
-s.dependency 'StoreKit'
+#s.dependency 'StoreKit'
 end
