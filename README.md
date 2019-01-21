@@ -50,6 +50,4 @@ if ([ApplePurchaseManager sharedInstance].isPurchasing) {
     }];
 ```
 
-![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
-
 
